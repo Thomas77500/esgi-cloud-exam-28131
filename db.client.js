@@ -2,6 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
+  'DB_PORT',
   'DB_HOST',
   'DB_USER',
   'DB_PASSWORD',
