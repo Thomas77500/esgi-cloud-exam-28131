@@ -5,8 +5,9 @@ const sequelize = new Sequelize(
   'DB_HOST',
   'DB_USER',
   'DB_PASSWORD',
-  
+
   {
+    dialect:'postgres',
     dialectOptions: {
       ssl: {
         require: true,
